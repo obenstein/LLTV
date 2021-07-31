@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.video_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+  background-color: white;
+}
+.video_text {
+  font-size: 17px;
+  padding: 0px 20px;
+  width: 50%;
+}
+.video_wrapper button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  padding: 5px 0px;
+  font-size: 15px;
+}
+.active,
+.video_wrapper button:hover {
+  color: #00adb5;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+.video_text h3 {
+  font-weight: bold;
+  font-size: 48px;
+  color: black;
+}
+.videos_wrapper video {
+  transition: all 1s;
+}
+.video_text p {
+  padding-right: 100px;
+}

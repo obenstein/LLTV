@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.review_wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 22px;
+  background-color: white;
+}
+.review_img {
+  border-radius: 10px;
+  padding: 50px;
+}
+.review_text p {
+  font-weight: bold;
+  padding: 50px;
+  margin-top: 80px;
+  color: black;
+}
+.logos_section {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.logo img {
+  width: 50%;
+}
+.cite {
+  font-size: 15px;
+}
